@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tstu-programming"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Tomilin <glaurungh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tstu_programming"}]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
