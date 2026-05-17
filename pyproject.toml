@@ -8,6 +8,8 @@ packages = [{include = "tstu_programming"}]
 
 [tool.poetry.dependencies]
 python = "^3.14"
+matplotlib = "^3.10.9"
+numpy = "^2.4.5"
 
 
 [build-system]
